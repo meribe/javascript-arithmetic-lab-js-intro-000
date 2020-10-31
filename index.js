@@ -36,17 +36,18 @@ function decrement(n) {
 }
 
 function makeInt(n) {
-  console.log(parseInt(n))
-  return n
+  var parsed= parseInt(n);
+  return parsed
 
 }
 function makeInt(n) {
-  console.log(parseInt(n,10));
+  var num=parseInt(n,10);
 
 }
 function preserveDecimal(n) {
-  var n=parseFloat(n)
-return n
+  var parsed= parseFloat(n)
+  return parsed
+
 
 }
 function preserveDecimal(n) {
